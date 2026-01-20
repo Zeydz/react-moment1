@@ -29,6 +29,18 @@ function App() {
       yearReleased: 2025,
       inFavorites: true,
     },
+        {
+      name: "Paradies",
+      artist: "Coldplay",
+      yearReleased: 2011,
+      inFavorites: false,
+    },
+        {
+      name: "End of beginning",
+      artist: "DJO",
+      yearReleased: 2025,
+      inFavorites: true,
+    }
   ];
   return (
     <>
