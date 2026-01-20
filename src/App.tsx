@@ -1,6 +1,7 @@
 import "./App.css";
 import HeroHeader from "./components/HeroHeader";
 import ItemCard from "./components/ItemCard";
+import Footer from "./components/Footer";
 
 function App() {
   // Song list
@@ -44,12 +45,15 @@ function App() {
   ];
   return (
     <>
-      <HeroHeader title="Mina favoritlåtar" />
+      {/* Map through song list and print it out with song and key */}
+      <HeroHeader title="Min musiklista" />
       <div className="item-list">
         {songs.map((song, index) => (
           <ItemCard key={index} song={song} />
         ))}
       </div>
+      {/* Footer */}
+      <Footer />
     </>
   )
 }
