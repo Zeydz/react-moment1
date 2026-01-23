@@ -1,3 +1,8 @@
+## Live-demo
+
+Webbplatsen är publicerad här:  
+[**Mina Favoritlåtar**](https://ubiquitous-gumption-c87999.netlify.app/)
+
 # Mina Favoritlåtar – React & TypeScript
 
 En enkel webbplats skapad med **React** och **TypeScript** som visar mina favoritlåtar i en dynamisk lista.
@@ -31,8 +36,3 @@ Använt mig utav `components-mapp` för att strukturera upp projektet.
 - `components/` – Innehåller alla komponenter (Header, ItemCard, Footer) tillsammans med CSS
 - `App.tsx` – Huvudkomponenten som sätter ihop sidan  
 - `App.css` – Global 
-
-## Live-demo
-
-Webbplatsen är publicerad här:  
-[**Mina Favoritlåtar**](https://ubiquitous-gumption-c87999.netlify.app/)
