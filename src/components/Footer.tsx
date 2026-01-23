@@ -4,7 +4,7 @@ function Footer() {
         backgroundColor: "black",
         textAlign: "center" as const,
         padding: "1rem",
-        marginTop: "2rem"
+        marginTop: "15rem"
         
     }
   return (
